@@ -9,6 +9,8 @@ Repo is a full user guide on how to use the bot.
 
 To add FortniteChecker to your own Discord server, click [here](https://discordapp.com/oauth2/authorize?client_id=438672538831290369&scope=bot&permissions=8)
 
+The bot needs certain permissions to carry out the commands available. If it doesnt have the following permissions the bot may not work correctly. Majority of problems I get is from people not giving the bot its needed permissions e.g `SEND MESSAGES`, bot cant respond without this permission.
+
 FortniteChecker Needed Permissions:
 
 `MANAGE ROLES` - Only necessary for the premium bot <br />
@@ -30,6 +32,8 @@ If you don't want to have any hassle with Permissions just give it `ADMINISTRATO
 Using the command .help will provide you with a list of all available commands.
 
 ## General Commands
+
+General commands are just basic commands that you can use for retreiving info or making sure the bot is online and responsive.
 
 ```
 .hi - The bot will respond with hello, used to test if bot is online
@@ -88,16 +92,67 @@ Using the command .help will provide you with a list of all available commands.
 
 ## Fortnite Commands
 
+This is a list of all the available Fortnite related commands.
+
 ```
 .lf1 - This sends a message that you are looking for one more player
 .status - This lets you know if the fortnite servers are up or down
+```
+### Link Fortnite Account
+
+```
+.link <Platform> <Ign> - This will link your fortnite account to your discord account
+.unlink - This will unlink your fortnite account from your discord account
+```
+
+After you have linked your account with the command above you are simply able to do any of the stats commands without having to enter platform or ign. You are able to do `.fstats` `.fseason4` `.fseason5` `.flast7` and it will return the stats for the account that you have linked.
+
+### Fortnite Stats
+
+```
 .fstats <Platform> <Ign> - Look up your overall stats for fortnite, provides an image
 .fseason4 <Platform> <Ign> - Look up your season 4 stats for fortnite, provides an image
 .fseason5 <Platform> <Ign> - Look up your season 5 stats for fortnite, provides an image
 .flast7 <Platform> <Ign> - Look up your last 7 days stats for fortnite, provides an embed
-.weapon <Name> - Display stats of a particular weapon
+```
+
+The above are all the available Fortnite Stats commands. The supported platforms are: pc | psn | xbl. You  are able to check your Overall Stats, Seasonal Stats and Weekly Stats.
+
+### Fortnite Weapons
+
+```
+.weapon <ID> - Display stats of a particular weapon
 .weaponlist - Display all available weapons supported
 ```
+
+Search the statistics of any weapon in fortnite and contrast and compare.
+
+| ID        | Weapon Name    |
+| ------------- | -----:|
+| famas     | Famas Assault Rifle |
+| burst     | Burst Assault Rifle |
+| m4      | M4 Assault Rifle |
+| scar     | SCAR Assault Rifle |
+| scoped      | Scoped Assault Rifle |
+| tommy     | Drum Gun  |
+| lmg      | Light Machine Gun |
+| minigun      | Minigun |
+| thermal      | Thermal Scoped Assault Rifle |
+| heavy     | Heavy Shotgun |
+| pump      | Pump Shotgun |
+| tac      | Tactical Shotgun |
+| dual      | Dual Pistol |
+| deagle      | Hand Cannon |
+| pistol      | Pistol |
+| revolver      | Revolver |
+| usp      | Suppressed Pistol |
+| smg      | Suppressed Submachine Gun |
+| newsmg     | Submachine Gun |
+| bolt      | Bolt-Action Sniper Rifle |
+| hunting      | Hunting Rifle |
+| semi      | Semi-Auto Sniper Rifle |
+| launcher      | Grenade Launcher |
+| rocket      | Rocket Launcher |
 
 ## Fun Commands
 
