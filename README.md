@@ -25,7 +25,9 @@ FortniteChecker Needed Permissions:
 `READ MESSAGE HISTORY` - Needed to read messages and respond <br />
 `ADD REACTIONS` - Needed for the poll command
 
-If you don't want to have any hassle with Permissions just give it `ADMINISTRATOR` 
+If you don't want to have any hassle with Permissions just give it `ADMINISTRATOR`
+
+If you do require any assistance with setup or have a problem with the bot please join the support server [here](https://discord.gg/CjyGwrJ) or message me on discord here 𝕮𝖗𝖎𝖕𝖕𝖑𝖊#1870.
 
 ## How To Use
 
@@ -125,7 +127,9 @@ The above are all the available Fortnite Stats commands. The supported platforms
 .weaponlist - Display all available weapons supported
 ```
 
-Search the statistics of any weapon in fortnite and contrast and compare.
+Search the statistics of any weapon in fortnite and contrast and compare. Learn whats best for each situation.
+
+### Weapon ID Table
 
 | ID        | Weapon Name    |
 | ------------- | -----:|
@@ -164,6 +168,8 @@ Search the statistics of any weapon in fortnite and contrast and compare.
 .yomomma - Get a randomly selected yo momma joke for your own entertainment
 ```
 
+These commands are for when you have nothing better to be doing. More games are to be implemented in the future.
+
 ## Moderation Commands
 
 ```
@@ -171,6 +177,8 @@ Search the statistics of any weapon in fortnite and contrast and compare.
 .kick <@user> <Reason> - Kick a member from the server with a reason for what he did
 .ban <@user> <Reason> - Ban a member from the server with a reason for what he did
 ```
+
+Keep track and log who you punish on your private discord server.
 
 ## Dynamic Channels Commands
 
@@ -184,3 +192,15 @@ Dynamic Channels are channels that are automatically created as they are needed.
 ## Premium Feature
 
 In order to gain premium on the bot you must pay £10 as a once off payment. Extra features such as custom commands for your server will vary in cost depending on what you want but we can sort something out.
+
+### What do I get with premium?
+
+There is a custom ranking system for fortnite implemented into the bot for premium users. You are able to rank the players in your discord by Wins or K/d, all depends on your preference.
+
+Your also able to setup custom roles so users can give themselves the role rather than you having to hand out certain roles.
+
+Alongside premium you can also suggest extra custom commands.
+
+## Credits
+
+FortniteChecker is being developed and maintained by 𝕮𝖗𝖎𝖕𝖕𝖑𝖊#1870 using Discord.js. The stats are provided by FortniteTracker.com
